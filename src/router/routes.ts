@@ -8,10 +8,10 @@ const routes: RouteConfig[] = [
       { path: '', component: () => import('pages/Home.vue') },
       { path: 'Vacation', component: () => import('pages/Vacation.vue') },
       {
-        path: 'Personal',
-        component: () => import('pages/Personal.vue'),
+        path: 'Employee',
+        component: () => import('pages/Employee.vue'),
         children: [
-          { path: 'View', component: () => import('pages/Personal/View.vue') }
+          { path: 'Dashboard/:id', component: () => import('pages/Employee/EmployeeDashboard.vue'), props: true }
         ]
       }
     ]

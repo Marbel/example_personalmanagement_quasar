@@ -133,7 +133,7 @@ export default class MainLayout extends Vue {
   search = '';
   links1 = [{ icon: 'home', text: 'Home', link: '/' }];
 
-  links2 = [{ icon: 'people', text: 'Personal', link: 'Personal' }, { icon: 'emoji_people', text: 'Bewerber', link: 'Applicants' }, { icon: 'wb_sunny', text: 'Urlaub', link: 'Vacation' }];
+  links2 = [{ icon: 'people', text: 'Employee', link: '/Employee' }, { icon: 'emoji_people', text: 'Bewerber', link: '/Applicants' }, { icon: 'wb_sunny', text: 'Urlaub', link: '/Vacation' }];
   buttons1 = [
     { text: 'About' },
     { text: 'Contact us' },
